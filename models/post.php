@@ -15,7 +15,6 @@
     public function __construct($db) {
       $this->conn = $db;
     }
-
     // Get Posts
     public function read() {
       // Create query
