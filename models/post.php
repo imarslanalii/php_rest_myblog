@@ -26,7 +26,6 @@
                                   p.created_at DESC';
       // Prepare statement
       $stmt = $this->conn->prepare($query);
-
       // Execute query
       $stmt->execute();
 
