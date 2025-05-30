@@ -44,7 +44,7 @@
           $stmt = $this->conn->prepare($query);
           // Bind ID
           $stmt->bindParam(1, $this->id);
-    
+  
           // Execute query
           $stmt->execute();
 
