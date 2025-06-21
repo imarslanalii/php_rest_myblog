@@ -46,7 +46,7 @@
           $stmt->bindParam(1, $this->id);
           // Execute query
           $stmt->execute();
-
+        
           $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
           // Set properties
