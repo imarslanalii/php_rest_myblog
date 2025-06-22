@@ -46,9 +46,8 @@
           $stmt->bindParam(1, $this->id);
           // Execute query
           $stmt->execute();
-        
           $row = $stmt->fetch(PDO::FETCH_ASSOC);
-
+          
           // Set properties
           $this->title = $row['title'];
           $this->body = $row['body'];
@@ -57,7 +56,7 @@
           $this->category_name = $row['category_name'];
     }
     // Create Post
-    public function create() {
+    public function create()b {
           // Create query
           $query = 'INSERT INTO ' . $this->table . ' SET title = :title, body = :body, author = :author, category_id = :category_id';
 
