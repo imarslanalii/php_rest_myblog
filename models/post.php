@@ -47,7 +47,7 @@
           // Execute query
           $stmt->execute();
           $row = $stmt->fetch(PDO::FETCH_ASSOC);
-    
+  
           // Set properties
           $this->title = $row['title'];
           $this->body = $row['body'];
