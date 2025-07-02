@@ -84,7 +84,6 @@
 
       return false;
     }
-
     // Update Post
     public function update() {
           // Create query
