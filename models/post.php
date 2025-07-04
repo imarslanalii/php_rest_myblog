@@ -90,7 +90,6 @@
           $query = 'UPDATE ' . $this->table . '
                                 SET title = :title, body = :body, author = :author, category_id = :category_id
                                 WHERE id = :id';
-          
           // Prepare statement
           $stmt = $this->conn->prepare($query);
 
