@@ -91,7 +91,6 @@
                                 WHERE id = :id';
           // Prepare statement
           $stmt = $this->conn->prepare($query);
-
           // Clean data
           $this->title = htmlspecialchars(strip_tags($this->title));
           $this->body = htmlspecialchars(strip_tags($this->body));
