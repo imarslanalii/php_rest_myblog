@@ -58,7 +58,6 @@
     public function create()b {
           // Create query
           $query = 'INSERT INTO ' . $this->table . ' SET title = :title, body = :body, author = :author, category_id = :category_id';
-
           // Prepare statement
           $stmt = $this->conn->prepare($query);
 
