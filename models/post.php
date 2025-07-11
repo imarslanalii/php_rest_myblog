@@ -70,7 +70,6 @@
           $stmt->bindParam(':body', $this->body);
           $stmt->bindParam(':author', $this->author);
           $stmt->bindParam(':category_id', $this->category_id);
-
           // Execute query
           if($stmt->execute()) {
             return true;
