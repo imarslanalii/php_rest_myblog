@@ -92,7 +92,6 @@
           $this->author = htmlspecialchars(strip_tags($this->author));
           $this->category_id = htmlspecialchars(strip_tags($this->category_id));
           $this->id = htmlspecialchars(strip_tags($this->id));
-
           // Bind data
           $stmt->bindParam(':title', $this->title);
           $stmt->bindParam(':body', $this->body);
