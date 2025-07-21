@@ -109,7 +109,6 @@
 
           return false;
     }
-
     // Delete Post
     public function delete() {
           // Create query
