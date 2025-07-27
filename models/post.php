@@ -114,7 +114,6 @@
           $stmt = $this->conn->prepare($query);
           // Clean data
           $this->id = htmlspecialchars(strip_tags($this->id));
-
           // Bind data
           $stmt->bindParam(':id', $this->id);
 
