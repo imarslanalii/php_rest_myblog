@@ -116,7 +116,6 @@
           $this->id = htmlspecialchars(strip_tags($this->id));
           // Bind data
           $stmt->bindParam(':id', $this->id);
-
           // Execute query
           if($stmt->execute()) {
             return true;
