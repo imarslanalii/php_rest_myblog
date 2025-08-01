@@ -3,7 +3,6 @@
     // DB Stuff
     private $conn;
     private $table = 'categories';
-
     // Properties
     public $id;
     public $name;
