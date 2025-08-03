@@ -11,7 +11,6 @@
     public function __construct($db) {
       $this->conn = $db;
     }
-
     // Get categories
     public function read() {
       // Create query
