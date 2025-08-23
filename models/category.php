@@ -22,7 +22,6 @@
         ' . $this->table . '
       ORDER BY
         created_at DESC';
-
       // Prepare statement
       $stmt = $this->conn->prepare($query);
 
