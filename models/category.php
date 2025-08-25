@@ -26,7 +26,6 @@
       $stmt = $this->conn->prepare($query);
       // Execute query
       $stmt->execute();
-
       return $stmt;
     }
   }
