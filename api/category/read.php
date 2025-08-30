@@ -9,7 +9,6 @@
   $db = $database->connect();
   // Instantiate category object
   $category = new Category($db);
-
   // Category read query
   $result = $category->read();
   
