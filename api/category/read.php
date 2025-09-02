@@ -13,7 +13,6 @@
   $result = $category->read();
   // Get row count
   $num = $result->rowCount();
-
   // Check if any categories
   if($num > 0) {
         // Cat array
