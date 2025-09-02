@@ -21,7 +21,6 @@
         $cat_arr['data'] = array();
         while($row = $result->fetch(PDO::FETCH_ASSOC)) {
           extract($row);
-
           $cat_item = array(
             'id' => $id,
             'name' => $name
