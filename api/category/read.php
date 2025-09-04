@@ -24,7 +24,6 @@
             'id' => $id,
             'name' => $name
           );
-
           // Push to "data"
           array_push($cat_arr['data'], $cat_item);
         }
