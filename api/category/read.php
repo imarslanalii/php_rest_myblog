@@ -27,7 +27,6 @@
           // Push to "data"
           array_push($cat_arr['data'], $cat_item);
         }
-
         // Turn to JSON & output
         echo json_encode($cat_arr);
 
