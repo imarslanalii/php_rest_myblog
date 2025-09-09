@@ -29,7 +29,6 @@
         }
         // Turn to JSON & output
         echo json_encode($cat_arr);
-
   } else {
         // No Categories
         echo json_encode(
