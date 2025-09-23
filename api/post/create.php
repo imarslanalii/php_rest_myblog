@@ -17,7 +17,6 @@
   $post->body = $data->body;
   $post->author = $data->author;
   $post->category_id = $data->category_id;
-
   // Create post
   if($post->create()) {
     echo json_encode(
