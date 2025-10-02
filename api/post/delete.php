@@ -9,7 +9,6 @@
   // Instantiate DB & connect
   $database = new Database();
   $db = $database->connect();
-
   // Instantiate blog post object
   $post = new Post($db);
 
