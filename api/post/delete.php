@@ -13,7 +13,6 @@
   $post = new Post($db);
   // Get raw posted data
   $data = json_decode(file_get_contents("php://input"));
-
   // Set ID to update
   $post->id = $data->id;
 
