@@ -15,7 +15,6 @@
   $data = json_decode(file_get_contents("php://input"));
   // Set ID to update
   $post->id = $data->id;
-
   // Delete post
   if($post->delete()) {
     echo json_encode(
